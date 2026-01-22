@@ -42,21 +42,38 @@ that takes this array as input and returns a new array containing squares of all
 
 
 #Algorithm 2(using numpy arr)
-arr =[-6, -3, -1, 2, 4, 5]
-import numpy as np
-arr = np.array(arr)
-print(f'{sorted(arr ** 2)[1]}')
+# arr =[-6, -3, -1, 2, 4, 5]
+# import numpy as np
+# arr = np.array(arr)
+# print(f'{sorted(arr ** 2)[1]}')
 
-#Algorithm 3(using for loop)
+# #Algorithm 3(using for loop)
 
-arr = [-6, -3, -1, 2, 4, 5]
+# arr = [-6, -3, -1, 2, 4, 5]
 
-for i in arr:
-    result = i**2
-    results = [result]
+# for i in arr:
+#     result = i**2
+#     results = [result]
     
-print(results)
-    
+# print(results)
+
+
+
+#praticesssssssssssssssssssssssssssssssssssss
+def sorted_suqared(array):
+    n = len(array)
+    i,j = 0,n-1
+    res = [0]*n
+    for k in reversed(range(n)):
+        if array[i] ** 2 > array[j] ** 2:
+            res[k] = array[i]**2
+            i+=1
+        else:
+            res[k] = array[j]**2
+            j-=1
+    return res
+array = [-2,1,2,3]
+print(sorted_suqared(array))
 
 
 
