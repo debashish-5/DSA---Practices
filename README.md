@@ -1,11 +1,11 @@
 ## DSA Practice Repository
-This repository is dedicated to mastering Data Structures and Algorithms. It contains solutions to various problems from platforms like LeetCode, HackerRank, and GeeksforGeeks, as well as implementations of fundamental data structures. [1, 2, 3, 4, 5] 
+This repository is dedicated to mastering Data Structures and Algorithms. It contains solutions to various problems from platforms like LeetCode, HackerRank, and GeeksforGeeks, as well as implementations of fundamental data structures.  
 ## 📁 Repository Structure
-The repo is organized by topic to make navigation easy: [6, 7, 8] 
+The repo is organized by topic to make navigation easy: 
 
 * Data-Structures/: Implementations of Linked Lists, Trees, Graphs, Stacks, Queues, and Heaps.
 * Algorithms/: Sorting, Searching, Dynamic Programming, Greedy, and Backtracking algorithms.
-* Problems/: Categorized solutions (e.g., Arrays, Strings, Recursion). [9, 10, 11, 12, 13] 
+* Problems/: Categorized solutions (e.g., Arrays, Strings, Recursion). 
 
 ## 🚀 Getting Started
 
