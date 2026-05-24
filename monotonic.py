@@ -85,3 +85,6 @@ def monotonic_array(array):
 
 # array = [1,2,3,4,5,6]
 print(monotonic_array([1,2,3,4,5,6]))
+
+
+
